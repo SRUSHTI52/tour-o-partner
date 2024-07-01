@@ -1,0 +1,84 @@
+
+.card-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    top: 1500px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.profile-card {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--dark);
+    border-radius: 7px;
+    background-color: var(--light);
+    max-width: 350px;
+    transition: transform 0.3s ease-in-out;
+}
+.profile-card:hover{
+    transform: scale(1.2);
+}
+
+.profile-card img {
+    border-radius: 5px 5px 0 0;
+    height: 200px;
+    object-fit: cover;
+    margin: 0;
+}
+
+.profile-card h3 {
+    margin: 10px;
+    color:var(--dark) ;
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.profile-card p:first-of-type {
+    margin:0px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--dark);
+}
+
+.profile-card p:last-of-type {
+    margin: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.profile-card a {
+    text-decoration: none;
+    margin: 5px 10px 10px 10px;
+    padding: 5px 15px;
+    align-self: center;
+    background-color: var(--dark);
+    border-radius: 15px;
+    color: white;
+    font-family: monospace;
+    font-weight: 500;
+}
+.profile-card a:hover{
+    color: white;
+    transform: scale(1.2);
+}
+.profile-link{
+    width: 150px;
+    height: 30px;
+    align-self: center;
+    background-color: var(--dark);
+    color: var(--light);
+    margin-bottom: 10px;
+    padding: 0;
+    font-family: monospace;
+}
+@media screen and (max-width: 480px) {
+    .card-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }

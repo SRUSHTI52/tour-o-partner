@@ -1,0 +1,14 @@
+.below_line{
+    background-color: var(--dark);
+    height: 2px;
+    width: 95vw;
+    margin: 10px auto;
+    box-shadow:  -2px 2px 20px 3px rgb(0, 52, 49);
+   
+}
+h2{
+    margin-top: 10vh;
+    color: var(--dark);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

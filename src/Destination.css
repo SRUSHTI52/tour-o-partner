@@ -1,0 +1,44 @@
+.destination-details-container {
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .destination-details-container img {
+    width: 70%;
+    height: 50%;
+    border-radius: 5px;
+    margin:30px 50px 50px 50px ;
+
+  }
+  
+  .destination-details-container h1, .destination-details-container h2 {
+    margin-top: 20px;
+    color: var(--dark);
+    max-width: 500px;
+    left: 0;
+    text-align: left;
+  }
+  
+  .destination-details-container p {
+    font-size: 1rem;
+    color: var(--dark);
+  }
+  
+  .first{
+    display: flex;
+    flex-direction: row;
+  }
+  .destination-details-container .first h1{
+    width: 1000px;
+    margin-bottom: 0;
+    
+  }
+  .destination-details-container .first span{
+    margin: auto 0;
+  }
+.destination-details-container .list:hover{
+    text-decoration: none;
+    transform: none;
+    transition: none;
+}

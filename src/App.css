@@ -1,0 +1,15 @@
+:root{
+  --light: #DEFAFF;
+  --dark: rgb(0, 52, 49);
+}
+body{
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  top:0;
+  background-color: var(--light);
+  color: var(--dark);
+}
+html{
+  margin: 0;
+}

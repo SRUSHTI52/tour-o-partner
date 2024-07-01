@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+label{
+    font-size: 1.5rem;
+    text-align: left;
+}
+input{
+    background-color: var(--light);
+    margin: 20px;
+    border: 2px solid var(--dark);
+    border-radius: 5px;
+    max-width: 300px;
+    height: 28px;
+    color: var(--dark);
+}
+input::placeholder{
+    color: var(--dark);
+}
+button{
+    max-width: 150px;
+    background-color: var(--dark);
+    color: var(--light);
+    margin: 20px;
+}
