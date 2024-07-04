@@ -36,7 +36,7 @@ const LoginUser = async (e) => {
     }
 }
   return (
-    <div>
+    <div className='outer'>
        <form onSubmit={LoginUser}>
           <label>Email</label>
           <input type='email' placeholder='enter email' value={data.email} onChange={(e) => setData({...data, email:e.target.value})}/>
@@ -44,6 +44,7 @@ const LoginUser = async (e) => {
           <input type='password' placeholder='enter password' value={data.password} onChange={(e) => setData({...data, password:e.target.value})}/>
        <button type='submit'>Login</button>
       </form>
+      <div className="innner" ><img  src='/one.png' /></div>
     </div>
   )
 }

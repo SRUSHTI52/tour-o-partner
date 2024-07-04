@@ -31,7 +31,7 @@ function App() {
     <UserContextProvider>
     <Router>
       <Navbar />
-      <Toaster position='bottom-right' toastOptions={{duration:2000}}/>
+      <Toaster position='bottom-right' toastOptions={{duration:3000}}/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/destination/:name" element={<Destination />} />

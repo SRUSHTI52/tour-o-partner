@@ -35,7 +35,8 @@ const Background = () => {
           key={index}
           className="destination-marker"
           style={{ top: destination.top, left: destination.left }}
-        ><img src={marker} alt="marker" height={'50px'} width={'50px'} />
+        >
+          <img src={marker} alt="marker" height={'50px'} width={'50px'} />
           <div className="tooltip">
             <img src={destination.icon} className='icon'/>{destination.name}</div>
         </div>

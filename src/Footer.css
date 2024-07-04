@@ -193,7 +193,7 @@ section {
 @media (max-width: 880px) {
 
   *{
-    background-color: var(--light);
+    background-color: transparent;
   }
   .footer-distributed{
     font: bold 14px sans-serif;

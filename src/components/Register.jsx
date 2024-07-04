@@ -94,7 +94,7 @@ const Register = () => {
   };
 
   return (
-    <div>
+    <div className='outer'>
       <form onSubmit={RegisterUser}>
         <label>Name</label>
         <input
@@ -119,6 +119,7 @@ const Register = () => {
         />
         <button type='submit'>Register</button>
       </form>
+      <div className="innner" ><img  src='/two.png' /></div>
     </div>
   );
 };

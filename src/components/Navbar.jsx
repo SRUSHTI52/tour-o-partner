@@ -50,12 +50,12 @@ const Navbar = () => {
       <ul className="navbar-links">
         <li onClick={handleHomeNavigation}>Home</li>
         <li>
-          <Link to="footer" smooth={true} duration={500}>
+          <Link to="footer" smooth={true} duration={2000}>
             About
           </Link>
         </li>
         <li>
-          <Link to="footer" smooth={true} duration={500}>
+          <Link to="footer" smooth={true} duration={2000}>
             Contact
           </Link>
         </li>
