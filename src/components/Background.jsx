@@ -1,16 +1,4 @@
-// import React from 'react'
-// import bckgimg from '/bckg.jpg'
 
-// const Background = () => {
-//   return (
-//     <div>
-//       <img src='/bckg.jpg' height={'800px'} width={'1200px'}/>
-
-//     </div>
-//   )
-// }
-
-// export default Background
 import React from 'react';
 import '../Background.css';
 import bckgimg from '/image.png';
