@@ -1,7 +1,7 @@
 ##  Tour-o-partner
 
 
-The Tour-o-partner is designed to help users discover new travel destinations and plan their trips effectively. Users can browse through a collection of destinations, view detailed information about each destination including best times to visit, important destinations, and weather information. Additionally, users can register, log in to explore their favourite destinations.
+The Tour-o-partner is designed to help users discover new travel destinations and plan their trips effectively. Users can browse through a collection of destinations, view detailed information about each destination including best times to visit, important destinations, and weather information. Additionally, users can register, log in and create their own travel destination wishlist.
 
 ## Features
 
@@ -9,6 +9,8 @@ The Tour-o-partner is designed to help users discover new travel destinations an
 - View detailed information about each destination
 - Authentication system for user registration and login
 - Responsive design for optimal viewing on different devices
+- Creating a travel wishlist
+- Adding or deleting items from wishlist
 
 
   ## Technologies Used
