@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 import '../Login.css';
 
 const Login = () => {
-    
+axios.defaults.withCredentials = true    
 const navigate = useNavigate()  
 const [data, setData]=useState({
     email:'',
@@ -20,7 +20,7 @@ const LoginUser = async (e) => {
       const {data} = await axios.post('http://localhost:8000/login',{
         email,
         password
-      });
+      },{withCredentials:true});
       if (data.error){
         toast.error(data.error)
         

@@ -1,0 +1,45 @@
+.user-profile {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: var(--light);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--dark);
+    text-align: center;
+  }
+  
+  .user-profile h1 {
+    font-size: 24px;
+    color: var(--dark);
+  }
+  
+  .user-profile h2 {
+    font-size: 20px;
+    color: var(--dark);
+  }
+  
+  .user-profile ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-profile li {
+    padding: 8px;
+    border-bottom: 1px solid var(--light);
+  }
+  
+  .user-profile p {
+    font-size: 16px;
+    color: var(--dark);
+  }
+
+  .del{
+    padding: 0;
+    margin-left: 50%;
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(180, 0, 0);
+    border-color: rgb(180, 0, 0);
+  }
+  

@@ -34,6 +34,10 @@ const Navbar = () => {
     navigate('/');
   };
 
+  const handleWishlist = () => {
+    navigate('/display');
+  }
+
   const handleRegister = () => {
     navigate('/register')
   }
@@ -58,6 +62,9 @@ const Navbar = () => {
           <Link to="footer" smooth={true} duration={2000}>
             Contact
           </Link>
+        </li>
+        <li onClick={handleWishlist}>
+          Wishlist
         </li>
       </ul>
       <div className="navbar-buttons">
