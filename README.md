@@ -20,3 +20,8 @@ The Tour-o-partner is designed to help users discover new travel destinations an
 - **Database:** MongoDB
 - **Authentication:** JSON Web Tokens (JWT)
 - **Styling:** CSS 
+
+https://github.com/user-attachments/assets/70d36d4d-f64e-41c0-ac9a-a8a8235ad1a7
+
+
+
